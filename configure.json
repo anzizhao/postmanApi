@@ -1,0 +1,12 @@
+{
+   "convert":[
+        {
+            "host":   "newoa.cc" ,
+            "outputFile": "./outputcc.json"
+        }, 
+        {
+            "host":   "newoa.bb" ,
+            "outputFile": "./outputbb.json"
+        } 
+   ] 
+}
