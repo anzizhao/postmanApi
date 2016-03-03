@@ -6,7 +6,6 @@ var fs = require('fs');
 var jsonfile = require('jsonfile')
 
 
-let swaggerFile =  './alpha.json';
 let configure ;
 const opt = {
     configFile: './configure.json',
@@ -26,6 +25,7 @@ if ( ! configure || ! configure.convert instanceof Array ) {
     console.log("配置文件有误")
 }
 
+let swaggerFile = configure.inputFile;
 let srcJson = require(swaggerFile)
 srcJson.basePath = ''
 configure.convert.forEach( item =>{

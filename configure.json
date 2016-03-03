@@ -1,4 +1,5 @@
 {
+    "inputFile": "./test/alpha.json",
    "convert":[
         {
             "host":   "newoa.cc" ,
